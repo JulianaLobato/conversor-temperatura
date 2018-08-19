@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  conversor-temperatura:
+    image: conversortemperatura
+    build:
+      context: .
+      dockerfile: conversor-temperatura/Dockerfile
